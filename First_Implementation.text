@@ -1,0 +1,12 @@
+##Creating a new environment 
+conda info --envs
+conda create -p venv python==3.11
+##Activate the environment 
+conda activate venv\
+##Requirement needed in your project 
+##  python -m  pip install -r requirements.txt
+#### for Jupyter nootebook 
+conda install ipykernel
+python -m pip install ipykernel
+
+
